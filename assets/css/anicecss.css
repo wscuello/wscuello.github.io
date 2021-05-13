@@ -80,7 +80,7 @@ a:hover {
 }
 
 #titleName{
-    text-shadow: 10px 10px 60px white;
+    text-shadow: 5px 5px 20px white;
     color: lightsteelblue;
     text-align: center;
 }
@@ -116,14 +116,14 @@ p {
 }
 
 .headerLink {
-   text-shadow: 5px 5px 50px white;
+   text-shadow: 5px 5px 20px white;
    color:whitesmoke;
    padding: 40px;
    text-decoration: underline;
 }
 
 .headerLink:hover {
-    text-shadow: 5px 5px 50px white;
+    text-shadow: 5px 5px 20px white;
     color:lightseagreen;
     padding: 40px;
     text-decoration: underline;
