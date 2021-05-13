@@ -81,8 +81,8 @@ a:hover {
 }
 
 #titleName{
-    text-shadow: 1px 1px 1px white;
-    color: lightslategray;
+    text-shadow: 10px 10px 10px white;
+    color: lightsteelblue;
     text-align: center;
 }
 
