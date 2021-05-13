@@ -121,7 +121,15 @@ p {
 }
 
 .headerLink {
-   padding: 50px;
+   color:whitesmoke;
+   padding: 40px;
+   text-decoration: underline;
+}
+
+.headerLink:hover {
+    color:lightseagreen;
+    padding: 40px;
+    text-decoration: underline;
 }
 
 .current {
@@ -134,8 +142,4 @@ p {
 
 .researchDivFirst{
     padding:1px 0px 25px 10px;
-}
-
-ul li {
-    font-size:18px;
 }
