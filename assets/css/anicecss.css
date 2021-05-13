@@ -2,7 +2,7 @@ body {
     display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
     flex-direction: column;
     align-items: center;
-    background-image: url(../img/bg1.jpg);
+    background-image: url(../img/bg2.jpg);
 
     background-position: center center;
     background-repeat: no-repeat;
@@ -10,7 +10,35 @@ body {
     background-size: cover;
     background-color: black;
     height: 100%;
-    color: white;
+    color: white!important;
+    font-size:18px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    flex: 0 1 auto;
+    margin: 5px;
+    background: rgba(0,0,0,0.6);
+    color: #003366;
+}
+
+.box:after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
 }
 
 h1 {
@@ -29,6 +57,18 @@ h2 {
 
 h3 {
     font-family: "Montserrat";
+    color:powderblue;
+}
+
+h3 wow {
+
+}
+
+h4 {
+    text-align:left;
+    padding-right:10px;
+    color:lightskyblue;
+    top:0;
 }
 
 .header {
@@ -37,17 +77,26 @@ h3 {
 }
 
 a {
-    color: lightskyblue;
-}
-a:hover {
     color: white;
+}
+
+a:hover {
+    color: lightblue;
     text-decoration: none;
 }
 
 #titleName{
-    text-shadow: 1px 1px 1px powderblue;
-    color: white;
+    text-shadow: 1px 1px 1px white;
+    color: lightslategray;
     text-align: center;
+}
+
+text {
+    color:white;
+}
+
+p {
+    color:white;
 }
 
 .aboutLinks {
@@ -55,6 +104,40 @@ a:hover {
     align-items: center;
 }
 
-.link {
+.inlineLink{
+    color:lightseagreen;
+    text-decoration:underline;
+}
+
+.researchLink {
+    font-style: italic;
+}
+
+.inlineLink:hover{
+    color:lightsteelblue;
+}
+
+.inlineLink:visited{
+    color:darkcyan;
+}
+
+.headerLink {
    padding: 50px;
+}
+
+.headerLink current {
+    color:green;
+    background-color: #000000;
+}
+
+.researchDiv{
+    padding:10px 0px 25px 10px;
+}
+
+.researchDivFirst{
+    padding:1px 0px 25px 10px;
+}
+
+ul li {
+    font-size:18px;
 }
