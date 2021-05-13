@@ -41,9 +41,8 @@ body {
 }
 
 h1 {
-    font-family: "Playfair Display";
     font-size: 80px;
-    font-weight: 100;
+    font-weight: 200;
     padding-top: 50px;
     line-height: 70px;
 }
@@ -81,7 +80,7 @@ a:hover {
 }
 
 #titleName{
-    text-shadow: 5px 5px 5px white;
+    text-shadow: 10px 10px 60px white;
     color: lightsteelblue;
     text-align: center;
 }
@@ -117,19 +116,17 @@ p {
 }
 
 .headerLink {
+   text-shadow: 5px 5px 50px white;
    color:whitesmoke;
    padding: 40px;
    text-decoration: underline;
 }
 
 .headerLink:hover {
+    text-shadow: 5px 5px 50px white;
     color:lightseagreen;
     padding: 40px;
     text-decoration: underline;
-}
-
-.current {
-    color:green;
 }
 
 .researchDiv{
