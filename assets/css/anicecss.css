@@ -11,7 +11,6 @@ body {
     height: 100%;
     color: white!important;
     font-size:18px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .content {
@@ -67,8 +66,8 @@ h4 {
 }
 
 .header {
- font-family: "Montserrat";
- font-size: 40px;
+    font-family: "Montserrat";
+    font-size: 40px;
 }
 
 a {
@@ -84,7 +83,6 @@ a:hover {
     text-shadow: 5px 5px 20px white;
     color: lightsteelblue;
     text-align: center;
-    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 text {
