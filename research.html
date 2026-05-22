@@ -1,103 +1,113 @@
-<html>
-  <head>
-      <title> William Cuello</title>
-
-      <!-- CSS -->
-      <link rel="stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-      <link rel="stylesheet" href = "assets/css/anicecss.css">
-
-      <!--JQUERY-->
-      <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
-
-      <!--FAVICON -->
-       <link rel="icon" href="assets/img/favicon2.svg">
-
-      <!--CUSTOM SCRIPTS -->
-      <script src="scripts/header.js"></script>
- </head>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research | William S. Chang-Cuello</title>
+  <meta name="description" content="Research by William S. Chang-Cuello in applied mathematics, theoretical ecology, stochastic modeling, and dynamical systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/img/favicon2.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
 <body>
-    <div class = "container">
-            <div class="content">
-                <div class="box">
-                    <div id="header"></div>
-                    <div class="col-md-2"></div>
-                    <div style="color:white;" class="col-md-8">
-                        <h2 style = "text-align: center;">Research</h2>
-                        <h3 style="font-weight:bold;">Research interests</h3>
-                        <div class="researchDivFirst">
-                            <span style="padding-top:5px;">
-                                In my research, I am interested in how environmental fluctuations play a role in demographic stochasticity. In particular, I investigate, by data-driven and theoretical means, how environmental fluctuations affect single- and multispecies systems. I am also interested in constructing or using mathematical frameworks for analyzing species-to-species interactions.
-                                <br><br>For my thesis, and under the supervision of my advisor, <a class="inlineLink" href="https://schreiber.faculty.ucdavis.edu/">Dr. Sebastian Schreiber</a> at UC Davis, I created a mathematical framework for analyzing whether an arbitrary number of interacting species would stochastically persist in a randomly fluctuating environment. My thesis, entitled <em style="color:lightblue"> Persistence of Single and Multispecies Systems in the Face of Environmental Uncertainty</em>, can be found <a class="inlineLink" href = "https://www.proquest.com/docview/2384472890?pq-origsite=gscholar&fromopenview=true"> here</a>.
-                                <br><br>
-                                Recently, I was awarded an NSF grant and am a <a class="inlineLink" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2138085"> Mathematical and Physical Sciences Ascending Postdoctoral Research Fellow </a>. Under this grant, I am working with <a class="inlineLink" href="http://www.ugr.es/~jabonachela/"> Drs. Juan Bonachela </a> and <a class="inlineLink" href="https://sites.math.rutgers.edu/~mischaik/">Dr. Konstantin Mischaikow</a> at Rutgers University to develop a mathematical framework -- named Widespread Ecological Networks and their Dynamical Signatures (WENDy) -- for analyzing species-to-species interactions on a coarse scale. With this framework, I will be assessing to what extent various communities are at risk from endangerment due to climatic and anthropogenic changes. 
-                            </span>
-                        </div>
-                        <div>
-                            <div style="clear:both; padding:5px 0px 0px 0px;">
-                                <h3 style="font-weight:bold;">Preprints and in prep:</h3>
-                                <div class="researchDivFirst">
-                                    <ul style="list-style:none; margin:0;padding:0;">
-                                        <li> <strong>Extinction Risk of Sonoran Desert Annuals Following Potential Changes in Precipitation Regimes. </strong> W.S. Cuello, J.R. Gremer, A. Sih, P.C. Trimmer, D.L. Venable, and S.J. Schreiber. <a class = "inlineLink" href="https://www.biorxiv.org/content/10.1101/2022.02.02.478887v1.full.pdf"> bioRxiv. </a>
-                                        </li>
-                                        <br>
-                                        <li> <strong>Widespread Ecological Networks and their Dynamical Signatures. </strong> W.S. Cuello, M. Gameiro, J. Bonachela, K. Mischaikow. In Prep.
-                                        </li>
-                                        <br>
-                                        <li> <strong>A Mathematical Framework for Multispecies Systems Undergoing Small Environmental Fluctuations. </strong> W.S. Cuello and S.J. Schreiber. In Prep.
-                                        </li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                            <div style="clear:both; padding:5px 0px 0px 0px;">
-                                <h3 style="font-weight:bold;">Most recent publication:</h3>
-                                <div class="researchDivFirst">
-                                    <p>
-                                        <strong>
-                                            Predicting evolutionarily stable strategies from functional responses of Sonoran Desert annuals to precipitation.
-                                        </strong>
-                                        W.S. Cuello, J.R. Gremer, P.C. Trimmer, A. Sih, and S.J. Schreiber (2019).
-                                        <a class="inlineLink researchLink" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6367162/">Proceedings of the Royal Society B, Biological Sciences 286: 20182613.</a>
-                                    </p>
-                                    <div class="left">
-                                        <img style="padding: 15px 15px 15px 0px;" src="./assets/img/erladesert.jpg" class="testing" width="350px" height="220px">
-                                    </div>
-                                    <div>
-                                        <p>In this paper, we tracked the year-to-year densities of ten Sonoran Desert winter annuals by creating ten bet-hedging, stochastic models. We parameterized these models using 30 years of seed-yield and precipitation data. In doing so, fluctuations in our population models' outputs were driven solely by random fluctuations in precipitation. Here, we were able to predict average germination rates for each species by solving for evolutionarily stable strategies (ESS values). We also statistically found to what extent seed survivorship and functional responses to precipitation drove these average germination rates and ESS values.
-                                        </p>
-
-                                        <p style="font-style:italic">
-                                            Photo credit: <a class = "inlineLink" href = "https://www.nsf.gov/discoveries/disc_images.jsp?cntn_id=116725&org=NSF"> Jonathan Horst </a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="clear:both; padding:5px 0px 0px 0px;">
-                                <h3 style="font-weight:bold;">Published papers:</h3>
-                                <div class="researchDivFirst">
-                                    <ul style="list-style:none; margin:0;padding:0;">
-                                        <li>
-                                            <strong>Predicting habitat choice after rapid environmental change.</strong>
-                                            P.H. Crowley, P.C. Trimmer, O. Spiegel, S.M. Ehlman, W.S. Cuello, and A. Sih (2019).
-                                            <a class="inlineLink researchLink" href="https://www.journals.uchicago.edu/doi/pdfplus/10.1086/702590?casa_token=aTwPxH6sqAkAAAAA:hNyxidbOmjucxsAn8q3PAwJHlCUfvU7twwbOxTAdhangGuF5_buHUwTbXUF86luMBuYwG8B5kzg">The American Naturalist 193, 619 - 632.</a>
-                                        </li>
-                                        <br>
-                                        <li>
-                                            <strong>Physiologically based pharmacokinetic (PBPK) modeling of metabolic pathways of bromochloromethane in rats.</strong>
-                                            W.S. Cuello, T.A.T. Janes, J.M. Jessee, M.A. Venecek, M.E. Sawyer, C.R. Eklund, and M.V. Evans (2012).
-                                            <a class="inlineLink researchLink" href="https://www.hindawi.com/journals/jt/2012/629781/">Journal of Toxicology, 2012:629781.</a>
-                                        </li>
-                                        <br>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2"></div>
-                </div>
-            </div>
-        </div>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">William S. Chang-Cuello</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="research.html" aria-current="page">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="assets/files/WSC_CV.pdf">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
+  </header>
+
+  <main>
+    <p class="eyebrow">Research</p>
+    <h1>Mathematical frameworks for ecological dynamics</h1>
+    <p class="subtitle">
+      I study complex biological systems using mathematical and computational tools, with a focus on long-term population
+      and community dynamics.
+    </p>
+
+    <section class="section grid-2">
+      <div>
+        <h2>Overview</h2>
+        <p>
+          My work connects dynamical systems, probability, and game-theoretic ideas to analyze how species adapt and persist
+          under changing environmental conditions. I have studied systems such as Sonoran Desert annual plants, which provide
+          a natural setting for understanding how organisms respond to extreme environmental variability.
+        </p>
+        <p>
+          A central theme of my research is identifying how optimal strategies emerge in biological systems. My recent work has
+          focused on viral life-history strategies, examining how latent periods and replication modes are shaped by environmental
+          factors such as dilution rates in controlled systems such as chemostats.
+        </p>
+        <p>
+          I am also interested in how ecological and evolutionary frameworks can be used more broadly to understand competition,
+          persistence, and strategic behavior across interacting systems.
+        </p>
+      </div>
+      <div>
+        <img class="feature-image" src="assets/img/precip2yield.jpg" alt="Research figure showing precipitation and yield relationships for Sonoran Desert annuals">
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Selected publications</h2>
+
+      <article class="publication">
+        <div class="pub-title">Shifting Precipitation Regimes Influence Optimal Germination Strategies and Population Dynamics in Bet-Hedging Desert Annuals.</div>
+        <div class="pub-meta">W.S. Cuello, J.R. Gremer, A. Sih, P.C. Trimmer, D.L. Venable, and S.J. Schreiber. <em>The American Naturalist</em> 205, no. 1 (2025): 55–75.</div>
+      </article>
+
+      <article class="publication">
+        <div class="pub-title">Age Structured Partial Differential Equations Model for Culex Mosquito Abundance.</div>
+        <div class="pub-meta">R. Frantz, H. Godinez, K. Martinez, W.S. Cuello, and C. Manore. <em>Ecological Modelling</em> 494 (2024): 110764.</div>
+      </article>
+
+      <article class="publication">
+        <div class="pub-title">Predicting habitat choice after rapid environmental change.</div>
+        <div class="pub-meta">P.H. Crowley, P.C. Trimmer, O. Spiegel, S.M. Ehlman, W.S. Cuello, and A. Sih. <em>The American Naturalist</em> 193, no. 5 (2019): 619–632.</div>
+      </article>
+
+      <article class="publication">
+        <div class="pub-title">Predicting evolutionarily stable strategies from functional responses of Sonoran Desert annuals to precipitation.</div>
+        <div class="pub-meta">W.S. Cuello, J.R. Gremer, P.C. Trimmer, A. Sih, and S.J. Schreiber. <em>Proceedings of the Royal Society B</em> 286, no. 1894 (2019): 20182613.</div>
+      </article>
+
+      <article class="publication">
+        <div class="pub-title">Widespread Ecological Networks and their Dynamical Signatures (WENDyS).</div>
+        <div class="pub-meta">W.S. Cuello, M. Gameiro, J. Bonachela, and K. Mischaikow. Draft available on arXiv (2023). In revision.</div>
+      </article>
+    </section>
+
+    <section class="section grid-2">
+      <div class="card">
+        <h2>Awards and fellowships</h2>
+        <ul class="clean-list">
+          <li>NSF MPS-Ascend Fellow, 2021–2022</li>
+          <li>NJ-NExT Fellow, 2022</li>
+          <li>William K. Schwarze Award, UC Davis, 2017</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Research links</h2>
+        <div class="link-list">
+          <a href="https://scholar.google.com/citations?user=LY7sZlAAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>
+          <a href="https://orcid.org/0000-0002-9464-3802">ORCID</a>
+          <a href="https://github.com/wscuello">GitHub</a>
+          <a href="assets/files/WSC_CV.pdf">CV</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © <span id="year">2026</span> William S. Chang-Cuello
+  </footer>
 </body>
 </html>

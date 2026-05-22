@@ -1,45 +1,111 @@
-<html>
-	<head>
-		<title> William Chang-Cuello</title>
-
-		<!-- CSS -->
-		<link rel="stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-		<link rel="stylesheet" href = "assets/css/anicecss.css">
-
-        <!--JQUERY-->
-        <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
-
-        <!--FAVICON -->
-		 <link rel="icon" href="assets/img/favicon2.svg">
-
-        <!--CUSTOM SCRIPTS -->
-        <script src="scripts/header.js"></script>
-
-   </head>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>William S. Chang-Cuello</title>
+  <meta name="description" content="William S. Chang-Cuello is an applied mathematician and theoretical ecologist studying long-term dynamics in ecological and biological systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/img/favicon2.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
 <body>
-    <div class = "container">
-        <div class="content">
-            <div class="box">
-                <div id="header"></div>
-                <div class="col-md-1"></div>
-                <div class = "col-md-4">
-                    <div style="text-align:center; padding-top:50px;position:relative;">
-                        <img src="./assets/img/willpropic.jpg" class = "img-circle" style = "width:300px; height:390px;">
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <br><br>
-                    <h2 style = "text-align: center;"> About me </h2>
-                    <p style="padding: 20px;">
-                        Welcome! My name is William Chang-Cuello (author name William Cuello). I'm currently living in Los Alamos, NM and am serving as a posdoctoral researcher in the A1: Information Systems & Modeling group. I was previously an NSF Postdoctoral Research Fellow and Hill Assistant Professor at Rutgers University. I was also found riding my pink (to me, rusty red, since I'm colorblind) bike around campus as an applied mathematics graduate student at UC Davis. 
-                        <br>
-                        <br>
-                    </p>
-                </div>
-            </div>
-        </div>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">William S. Chang-Cuello</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="assets/files/WSC_CV.pdf">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-</body>
+  </header>
 
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Applied Mathematics · Theoretical Ecology</p>
+        <h1>William S. Chang-Cuello</h1>
+        <p class="subtitle">Applied mathematician studying long-term dynamics in ecological and biological systems.</p>
+        <p class="lede">
+          I develop mathematical and computational frameworks for understanding how populations and communities persist,
+          adapt, and change under environmental variability. My work connects dynamical systems, probability, and ecological
+          theory to study biological systems shaped by uncertainty and climate change.
+        </p>
+        <p>
+          I am currently an Assistant Professor of Mathematics at Greenfield Community College. I previously held positions
+          at Los Alamos National Laboratory and Rutgers University, and received my Ph.D. in Applied Mathematics from UC Davis
+          under the guidance of Sebastian Schreiber.
+        </p>
+        <div class="button-row">
+          <a class="button" href="assets/files/WSC_CV.pdf">Download CV</a>
+          <a class="button secondary" href="research.html">Research</a>
+          <a class="button secondary" href="teaching.html">Teaching</a>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <img class="portrait" src="assets/img/willpropic.jpg" alt="Portrait of William S. Chang-Cuello">
+        <p class="caption">Assistant Professor of Mathematics, Greenfield Community College.</p>
+      </aside>
+    </section>
+
+    <section class="section grid-2">
+      <div class="card">
+        <h2>Research interests</h2>
+        <ul class="tag-list">
+          <li>Mathematical biology</li>
+          <li>Theoretical ecology</li>
+          <li>Dynamical systems</li>
+          <li>Applied probability</li>
+          <li>Computational science</li>
+          <li>Bayesian statistics</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Links</h2>
+        <div class="link-list" aria-label="Academic profile links">
+          <a href="https://scholar.google.com/citations?user=LY7sZlAAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>
+          <a href="https://orcid.org/0000-0002-9464-3802">ORCID</a>
+          <a href="https://github.com/wscuello">GitHub</a>
+          <a href="mailto:chang-cuellow@gcc.mass.edu">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="callout">
+        <h2>Mathematics for biological questions</h2>
+        <p>
+          I am especially interested in how mathematical structure can clarify ecological mechanisms: when populations persist,
+          how strategies become evolutionarily stable, and how long-term community outcomes can be inferred from limited data
+          or simplified descriptions of biological interactions.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Collaborators</h2>
+      <ul class="tag-list">
+        <li>Juan Bonachela</li>
+        <li>Marcio Gameiro</li>
+        <li>Jennifer Gremer</li>
+        <li>Carrie Manore</li>
+        <li>Konstantin Mischaikow</li>
+        <li>Ethan Romero-Severson</li>
+        <li>Sebastian Schreiber</li>
+        <li>Andrew Sih</li>
+        <li>Pete Trimmer</li>
+        <li>Larry Venable</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © <span id="year">2026</span> William S. Chang-Cuello
+  </footer>
+</body>
 </html>
