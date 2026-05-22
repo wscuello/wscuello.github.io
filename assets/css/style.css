@@ -133,7 +133,7 @@ footer {
   }
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   body {
     color: #e9dfcf;
     background: #2d2924;
@@ -158,4 +158,4 @@ footer {
   hr {
     border-top-color: #6f6250;
   }
-}
+}*/
