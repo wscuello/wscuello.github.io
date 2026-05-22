@@ -78,6 +78,22 @@ summary {
   font-size: 1.35rem;
   cursor: pointer;
   margin: 14px 0;
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::before {
+  content: "+";
+  display: inline-block;
+  width: 1.2em;
+  font-weight: 700;
+}
+
+details[open] summary::before {
+  content: "−";
 }
 
 details {
